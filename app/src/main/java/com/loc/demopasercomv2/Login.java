@@ -36,7 +36,7 @@ public class Login {
                     Log.e("Trang thai", "Đăng nhập thành công" + user.getString("username"));
                 } else {
 
-                    Log.e("Trang thai", "Đăng nhập không thành công" + user.getString("password"));
+                    Log.e("Trang thai", "Đăng nhập không thành công");
                 }
             }
         });
